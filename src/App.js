@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Switch } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import GlobalStyle from './styles/global';
 
-function App() {
-  return (
-    <BrowserRouter>
-      <Switch>
-        <div />
-      </Switch>
-    </BrowserRouter>
-  );
-}
+const App = () => (
+  <div>
+    <GlobalStyle />
+    <Navbar />
+    <Home />
+  </div>
+);
 
 export default App;
