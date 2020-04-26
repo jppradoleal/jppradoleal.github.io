@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const StyledNav = styled.nav`
   position: fixed;
+  visibility: ${({ width }) => (width < 1050 ? 'hidden' : 'visible')};
   top: 0;
   right: 0;
   height: 200px;

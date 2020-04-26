@@ -6,19 +6,28 @@ const StyledHome = styled.div`
   height: 100vh;
   main {
     display: flex;
-    flex-direction: row;
+    flex-direction: ${({ width }) => (width < 1050 ? 'column' : 'row')};
     justify-content: center;
     align-items: center;
+    padding-top: ${({ width }) => (width < 1050 ? '100px' : '0')};
     height: 90%;
     #homeIcon {
       align-self: flex-end;
       animation: 5s ${flashAnimation} alternate infinite;
     }
     #intro {
-      width: 350px;
+      width: ${({ width }) => (width < 1050 ? '100%' : '350px')};
       margin-left: 50px;
+      margin-top: ${({ width }) => (width < 1050 ? '50px' : '0')};
       color: var(--text-icon);
       position: relative;
+      #knowledge {
+        width: 70%;
+        margin: 10px 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+      }
       h2 {
         font-size: 1.6em;
         font-weight: 300;
@@ -31,13 +40,14 @@ const StyledHome = styled.div`
       ::before {
         content: '';
         position: absolute;
+        visibility: ${({ width }) => (width < 1050 ? 'hidden' : 'visible')};
         background-image: url('img/Vector-3.svg');
         background-size: contain;
         background-repeat: no-repeat;
         top: -95px;
-        left: -110px;
+        left: -140px;
         z-index: -1;
-        width: 175%;
+        width: 145%;
         height: 175%;
       }
     }
