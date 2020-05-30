@@ -8,7 +8,7 @@ import StyledHome from './styled';
 const Home = () => {
   const [width] = useWindowSize();
   return (
-    <StyledHome width={width}>
+    <StyledHome width={width} id="Home">
       <main>
         <div id="profile">
           <img className="profilePicture" alt="" src="img/profile.jpg" />

@@ -4,6 +4,7 @@ const StyledNav = styled.nav`
   position: fixed;
   visibility: ${({ width }) => (width < 1050 ? 'hidden' : 'visible')};
   top: 0;
+  z-index: 10;
   right: 0;
   height: 200px;
   display: flex;

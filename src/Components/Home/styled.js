@@ -9,7 +9,7 @@ const StyledHome = styled.div`
     flex-direction: ${({ width }) => (width < 1050 ? 'column' : 'row')};
     justify-content: center;
     align-items: center;
-    padding-top: ${({ width }) => (width < 1050 ? '100px' : '0')};
+    padding-top: ${({ width }) => (width < 1050 ? '100px' : '10px')};
     height: 90%;
     #homeIcon {
       align-self: flex-end;
@@ -17,7 +17,7 @@ const StyledHome = styled.div`
     }
     #intro {
       width: ${({ width }) => (width < 1050 ? '100%' : '350px')};
-      margin-left: 50px;
+      margin-left: ${({ width }) => (width > 1050 ? '50px' : '0')};
       margin-top: ${({ width }) => (width < 1050 ? '50px' : '0')};
       color: var(--text-icon);
       position: relative;
@@ -44,8 +44,8 @@ const StyledHome = styled.div`
         background-image: url('img/Vector-3.svg');
         background-size: contain;
         background-repeat: no-repeat;
-        top: -95px;
-        left: -140px;
+        top: -75px;
+        left: -160px;
         z-index: -1;
         width: 145%;
         height: 175%;
