@@ -5,6 +5,11 @@ const StyledPortfolio = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  .description {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
   .Slider {
     width: ${({ width }) => (width > 1050 ? '75%' : '100%')};
     height: auto;

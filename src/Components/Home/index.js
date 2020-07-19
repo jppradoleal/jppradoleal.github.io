@@ -19,12 +19,10 @@ const Home = () => {
           <h1>João Pedro Prado</h1>
           <h2>Back and front-end developer</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
-            quidem, laboriosam explicabo unde quaerat quasi dicta ipsa vel,
-            voluptatum impedit fugiat optio rem quo quisquam! Totam eaque
-            doloremque praesentium vel nulla distinctio atque aspernatur nobis
-            quibusdam ex incidunt, odit, sint soluta modi repellendus id. Vero
-            iste dolorem atque tempore odit!
+          Estou cursando Ciências da Computação na Universade Cruzeiro do Sul. 
+          Sou destacado por desenvolver soluções inovadoras para aumentar a produtividade do serviço, 
+          oferecendo diversas alternativas às empresas. Me dedico ao Web Design, focando na MERN Stack. 
+          Meu github <br /> possui projetos de Design, Game Dev <br />e em outras diversas áreas nas quais<br />me aventuro. 
           </p>
           <div id="knowledge" aria-label="Knowledge">
             <FaHtml5 color="white" size={32} title="HTML5" />

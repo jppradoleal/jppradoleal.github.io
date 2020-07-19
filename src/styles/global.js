@@ -35,6 +35,11 @@ const GlobalStyle = createGlobalStyle`
         background-color: var(--background-color);
         overflow-x: hidden;
     }
+    footer {
+        background-color: var(--highlight-color);
+        padding: 5px 25px;
+        color: white;
+    }
 `;
 
 export default GlobalStyle;

@@ -34,7 +34,7 @@ const Portfolio = () => {
           <div className="repo" key={data.id}>
             <div className="img-container">
               <img
-                src="https://loremflickr.com/1366/768?random=1"
+                src={"https://loremflickr.com/1366/768/modern?random=" + data.id}
                 alt={data.name}
               />
             </div>
