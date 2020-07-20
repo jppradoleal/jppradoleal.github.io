@@ -16,8 +16,8 @@ const StyledHome = styled.div`
       animation: 5s ${flashAnimation} alternate infinite;
     }
     #intro {
-      width: ${({ width }) => (width < 1050 ? '100%' : '350px')};
-      margin-left: ${({ width }) => (width > 1050 ? '50px' : '0')};
+      width: ${({ width }) => (width < 1050 ? '97%' : '350px')};
+      margin-left: ${({ width }) => (width < 1050 ? '0' : '50px')};
       margin-top: ${({ width }) => (width < 1050 ? '50px' : '0')};
       color: var(--text-icon);
       position: relative;

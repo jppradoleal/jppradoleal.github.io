@@ -12,7 +12,7 @@ const Home = () => {
       <main>
         <div id="profile">
           <img className="profilePicture" alt="" src="img/profile.jpg" />
-          <a href="#contact">Hire me!</a>
+          <a href="#Contact">Hire me!</a>
         </div>
         <TiArrowSortedDown size={32} id="homeIcon" color="white" />
         <div id="intro">

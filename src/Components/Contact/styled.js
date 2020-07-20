@@ -5,6 +5,7 @@ const StyledContact = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: ${({ width }) => (width < 1050 ? 'column' : 'row')};
     h3 {
         color: white;
         font-weight: 300;
@@ -13,7 +14,7 @@ const StyledContact = styled.div`
     .icon-group {
         text-align: center;
     }
-    .icons:nth-child(2) {
+    .icons:not(:first-child) {
         margin-left: 15px;
     }
     form {
@@ -68,6 +69,9 @@ const StyledContact = styled.div`
         position: relative;
     }
     #first {
+        margin-top: ${({ width }) => (width < 1050 ? '150px' : '0')};
+        margin-bottom: ${({ width }) => (width < 1050 ? '250px' : '0')};
+        order: ${({ width }) => (width < 1050 ? 2 : '0')};
         :before {
             content: '';
             position: absolute;
@@ -81,6 +85,8 @@ const StyledContact = styled.div`
         }
     }
     #second {
+        margin-top: ${({ width }) => (width < 1050 ? '250px' : '0')};
+        order: ${({ width }) => (width < 1050 ? 1 : '0')};
         :before {
             content: '';
             position: absolute;

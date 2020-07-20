@@ -5,6 +5,7 @@ const StyledPortfolio = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: ${({ width }) => (width < 1050 ? '50px' : '0')};
   .description {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 5px 15px;
