@@ -1,0 +1,38 @@
+[
+  {
+    "title": "VueDex",
+    "description": "Pokedex using VueJS with Vuex State Management and Webpack for build.",
+    "github_url": "https://github.com/jppradoleal/vue-pokedex",
+    "deployed_url": "https://vue-dex-joaop.netlify.app/"
+  },
+  {
+    "title": "AirCNC",
+    "description": "Service to connect developers and startups.",
+    "github_url": "https://github.com/jppradoleal/Omnistack9.0",
+    "deployed_url": "https://omni9-joaop.netlify.app/"
+  },
+  {
+    "title": "Caderneta Digital",
+    "description": "Service to present children oncology information, made during Desiderata Hackathon, received 2º place.",
+    "github_url": "https://github.com/jppradoleal/hackathon-saude-infantil-frontend-time-15",
+    "deployed_url": "https://cadernetadigital.netlify.app/"
+  },
+  {
+    "title": "Big Game Survey",
+    "description": "Dashboard and Mobile App to present and collect data about gamers preferences.",
+    "github_url": "https://github.com/jppradoleal/sds1",
+    "deployed_url": "https://sds1-joaop.netlify.app/"
+  },
+  {
+    "title": "Happy",
+    "description": "Service to help volunteers that are willing to find orphanages.",
+    "github_url": "https://github.com/jppradoleal/NLW3",
+    "deployed_url": "https://nlw-joaop.netlify.app/"
+  },
+  {
+    "title": "Bord8",
+    "description": "Utility tool to generate custom CSS Borders.",
+    "github_url": "https://github.com/jppradoleal/Bord8",
+    "deployed_url": "https://jppradoleal.github.io/Bord8/"
+  }
+]

@@ -1,6 +1,6 @@
 <template>
   <section class="body">
-    <h3>Side Projects</h3>
+    <h3>{{$t('sideProjects.title')}}</h3>
     <section v-for="repo in repos" :key="repo.id">
       <header>
         <h4><a :href="repo.html_url">{{repo.name}}</a></h4>

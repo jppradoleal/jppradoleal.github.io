@@ -1,6 +1,6 @@
 <template>
   <section class="body">
-    <h3>Onde me encontrar?</h3>
+    <h3>{{$t('contact.title')}}</h3>
     <section>
       <p>Github</p>
       <a href="#">/jppradoleal</a>

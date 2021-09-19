@@ -1,3 +1,5 @@
+import locales from './static/locales.json';
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -32,6 +34,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    {src: '~/plugins/i18n.ts'}
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -47,7 +50,21 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/i18n'
   ],
+
+  i18n: {
+    locales: ['en-US', 'pt-BR'],
+    defaultLocale: 'en-US',
+    vueI18n: {
+      messages: locales
+    },
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root'
+    }
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

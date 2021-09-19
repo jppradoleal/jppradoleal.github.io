@@ -1,0 +1,86 @@
+{
+  "en-US": {
+    "header": {
+      "role": "Fullstack Developer",
+      "joke": "Light theme attracts bugs"
+    },
+    "callToAction": {
+      "label": "João, I need help with",
+      "action": "Message me!"
+    },
+    "whoAmI": {
+      "title": "Who am I?",
+      "body": "Software Developer, converting coffe into code since 2012, started with the development of Games PoC with ActionScript, later then C#. At 2017 I've met Python and just then I've felt in love with programming. My first professional experience was in 2020, using Java - Spring - PostgreSQL. Today my free hours are spent helping beginners in communities and acquiring knowledge in Messaging, Microsservices and Testing."
+    },
+    "experiences": {
+      "title": "Experiences",
+      "body": [
+        {
+          "title": "Mury - Accounting - Since 11/2020",
+          "body": "Mid level Developer - I've increased accounting sector's productivity through solutions to convert accounting entries standards and audition of tax rules. Integration of ERPs through Rest APIs. Mury Stack uses Java 8, Spring, JSF, Primefaces and, PostgreSQL."
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "body": [
+        {
+          "title": "Computer Science - From 03/2020 to 03/2023",
+          "body": "Cruzeiro do Sul Virtual"
+        },
+        {
+          "title": "ReactJS - From 05/2021 to 07/2021",
+          "body": "Cruzeiro do Sul Virtual"
+        }
+      ]
+    },
+    "sideProjects": {
+      "title": "Projects"
+    },
+    "contact": {
+      "title": "Where to find me"
+    }
+  },
+  "pt-BR": {
+    "header": {
+      "role": "Desenvolvedor Fullstack",
+      "joke": "Tema claro atrai bugs!"
+    },
+    "callToAction": {
+      "label": "João, eu preciso de ajuda com",
+      "action": "Me chama!"
+    },
+    "whoAmI": {
+      "title": "Quem sou eu?",
+      "body": "Desenvolvedor de software, comecei cedo a transformar café em código, em 2012, desenvolvendo PoC de jogos de aventura, plataforma e arcades, em 2017 conheci o Python e tomei gosto pelo desenvolvimento. Entrei na área em 2020, programando Spring - Java - PostgreSQL. Hoje divido alguma parte do meu dia entre ajudar iniciantes em comunidades e, aprofundar meus conhecimentos em Messaging, Microsservices e Testing."
+    },
+    "experiences": {
+      "title": "Experiências",
+      "body": [
+        {
+          "title": "Mury - Assessoria contábil - Desde 11/2020",
+          "body": "Desenvolvedor Pleno - Aumentei a produtividade do setor contábil através de soluções para conversão de padrões de lançamentos contábeis e audições de regras fiscais. Integração de sistemas através de APIs REST. O Sistema Interno Mury é baseado em Java 8, Spring, JSF e Primefaces e, PostgreSQL."
+        }
+      ]
+    },
+    "education": {
+      "title": "Educação",
+      "body": [
+        {
+          "title": "Ciências da Computação - Desde 03/2020 até 03/2023",
+          "body": "Cruzeiro do Sul Virtual"
+        },
+        {
+          "title": "ReactJS - Desde 05/2021 até 07/2021",
+          "body": "Cruzeiro do Sul Virtual"
+        }
+      ]
+    },
+    "sideProjects": {
+      "title": "Projetos"
+    },
+    "contact": {
+      "title": "Onde me encontrar?"
+    }
+  }
+}

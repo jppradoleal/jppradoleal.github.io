@@ -1,10 +1,10 @@
 <template>
   <main id="call-to-action">
     <section>
-      <p>João, eu preciso de ajuda com</p>
+      <p>{{$t('callToAction.label')}}</p>
       <p class="tech">{{ tech }}</p>
     </section>
-    <button>Me chama!</button>
+    <button>{{$t('callToAction.action')}}</button>
   </main>
 </template>
 
