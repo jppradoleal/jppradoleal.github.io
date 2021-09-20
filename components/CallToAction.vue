@@ -2,7 +2,6 @@
   <main id="call-to-action">
     <section>
       <p>{{$t('callToAction.label')}}</p>
-      <p class="tech">{{ tech }}</p>
     </section>
     <button>{{$t('callToAction.action')}}</button>
   </main>
@@ -23,11 +22,6 @@ const techs = [
 ]
 
 export default Vue.extend({
-  data() {
-    return {
-      tech: techs[Math.floor(Math.random() * techs.length)]
-    }
-  },
 })
 </script>
 

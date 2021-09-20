@@ -3,23 +3,23 @@
     <h3>{{$t('contact.title')}}</h3>
     <section>
       <p>Github</p>
-      <a href="#">/jppradoleal</a>
+      <a href="https://github.com/jppradoleal">/jppradoleal</a>
     </section>
     <section>
       <p>Dev.to</p>
-      <a href="#">/immurderer</a>
+      <a href="https://dev.to/immurderer">/immurderer</a>
     </section>
     <section>
       <p>LinkedIN</p>
-      <a href="#">/joao-pedro-prado-36532494</a>
+      <a href="https://linkedin.com/in/jppradoleal">/jppradoleal</a>
     </section>
     <section>
       <p>Discord</p>
-      <a href="#">JPPrado#0582</a>
+      <a href="https://discord.com/users/263579320595906561">JPPrado#0582</a>
     </section>
     <section>
       <p>E-mail</p>
-      <a href="#">joaopedro0128@hotmail.com</a>
+      <a href="mailto:joaopedro0128@hotmail.com">joaopedro0128@hotmail.com</a>
     </section>
   </section>
 </template>

@@ -3,6 +3,7 @@
     <Header />
     <CallToAction />
     <hr />
+    <BestProjects />
     <WhoAmI />
     <Experiences />
     <Education />
@@ -10,12 +11,6 @@
     <Contact />
   </section>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({})
-</script>
 
 <style lang="scss">
 hr {

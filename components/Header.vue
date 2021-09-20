@@ -7,18 +7,25 @@
     <section class="tail-header">
       <p class="joke">{{ $t('header.joke') }}</p>
 
-      <section class="language-dropdown">
-        <p class="label-dropdown">Language</p>
-        <ul class="content-dropdown">
-          <a href="#">PT</a>
-          <a href="#">EN</a>
-        </ul>
+      <section class="languages">
+        <nuxt-link
+          v-if="$i18n.locale !== 'pt-BR'"
+          :to="switchLocalePath('pt-BR')"
+          class="language-switcher"
+          >Português</nuxt-link
+        >
+        <nuxt-link
+          v-if="$i18n.locale !== 'en-US'"
+          :to="switchLocalePath('en-US')"
+          class="language-switcher"
+          >English</nuxt-link
+        >
       </section>
     </section>
   </nav>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 nav {
   display: flex;
   justify-content: space-between;
@@ -38,36 +45,13 @@ nav {
     gap: 32px;
   }
 
-  .language-dropdown {
-    position: relative;
-
-    .label-dropdown {
+  .languages {
+    .language-switcher {
       padding: 5px 25px;
-
       background: var(--green);
+      color: black;
       border-radius: 5px;
-      color: black;
-    }
-
-    .content-dropdown {
-      visibility: hidden;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-
-      color: black;
-      background: var(--green);
-
-      a {
-        padding: 5px;
-        background: var(--green);
-        &:hover {
-          filter: brightness(0.9);
-        }
-      }
+      text-decoration: none;
     }
   }
 }

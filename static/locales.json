@@ -5,7 +5,7 @@
       "joke": "Light theme attracts bugs"
     },
     "callToAction": {
-      "label": "João, I need help with",
+      "label": "João, I need help",
       "action": "Message me!"
     },
     "whoAmI": {
@@ -30,12 +30,53 @@
         },
         {
           "title": "ReactJS - From 05/2021 to 07/2021",
-          "body": "Cruzeiro do Sul Virtual"
+          "body": "RocketSeat"
         }
       ]
     },
     "sideProjects": {
-      "title": "Projects"
+      "title": "Last Projects"
+    },
+    "bestProjects": {
+      "title": "My Best Projects",
+      "body": [
+        {
+          "title": "VueDex",
+          "description": "Pokedex using VueJS with Vuex State Management and Webpack for build.",
+          "github_url": "https://github.com/jppradoleal/vue-pokedex",
+          "deployed_url": "https://vue-dex-joaop.netlify.app/"
+        },
+        {
+          "title": "AirCNC",
+          "description": "Service based in React and NodeJS to connect developers and startups.",
+          "github_url": "https://github.com/jppradoleal/Omnistack9.0",
+          "deployed_url": "https://omni9-joaop.netlify.app/"
+        },
+        {
+          "title": "Caderneta Digital",
+          "description": "Service based in React and NodeJS to present children oncology information, made during Desiderata Hackathon, received 2º place.",
+          "github_url": "https://github.com/jppradoleal/hackathon-saude-infantil-frontend-time-15",
+          "deployed_url": "https://cadernetadigital.netlify.app/"
+        },
+        {
+          "title": "Big Game Survey",
+          "description": "Dashboard and Mobile App based in React to present and collect data, in a Java Spring BackEnd, about gamers preferences.",
+          "github_url": "https://github.com/jppradoleal/sds1",
+          "deployed_url": "https://sds1-joaop.netlify.app/"
+        },
+        {
+          "title": "Happy",
+          "description": "Service based in React and NodeJS to help volunteers that are willing to find orphanages.",
+          "github_url": "https://github.com/jppradoleal/NLW3",
+          "deployed_url": "https://nlw-joaop.netlify.app/"
+        },
+        {
+          "title": "Bord8",
+          "description": "Utility tool using HTML, CSS and JS, to generate custom CSS Borders.",
+          "github_url": "https://github.com/jppradoleal/Bord8",
+          "deployed_url": "https://jppradoleal.github.io/Bord8/"
+        }
+      ]
     },
     "contact": {
       "title": "Where to find me"
@@ -47,7 +88,7 @@
       "joke": "Tema claro atrai bugs!"
     },
     "callToAction": {
-      "label": "João, eu preciso de ajuda com",
+      "label": "João, eu preciso de ajuda",
       "action": "Me chama!"
     },
     "whoAmI": {
@@ -77,7 +118,48 @@
       ]
     },
     "sideProjects": {
-      "title": "Projetos"
+      "title": "Últimos projetos"
+    },
+    "bestProjects": {
+      "title": "Meus melhores projetos",
+      "body": [
+        {
+          "title": "VueDex",
+          "description": "Pokedex baseada em Vue e Vuex e build com Webpack.",
+          "github_url": "https://github.com/jppradoleal/vue-pokedex",
+          "deployed_url": "https://vue-dex-joaop.netlify.app/"
+        },
+        {
+          "title": "AirCNC",
+          "description": "Serviço baseado em React e NodeJS para conectar desenvolvedores e startups.",
+          "github_url": "https://github.com/jppradoleal/Omnistack9.0",
+          "deployed_url": "https://omni9-joaop.netlify.app/"
+        },
+        {
+          "title": "Caderneta Digital",
+          "description": "Serviço baseado em React e NodeJS para apresentar informações sobre obesidade infantil, feito durante o Hackathon Desiderata, recebeu o 2º Lugar.",
+          "github_url": "https://github.com/jppradoleal/hackathon-saude-infantil-frontend-time-15",
+          "deployed_url": "https://cadernetadigital.netlify.app/"
+        },
+        {
+          "title": "Big Game Survey",
+          "description": "Aplicativo móvel e Dashboard em React para coletar e apresentar dados, de um Backend em Java Spring, sobre as preferências dos gamers.",
+          "github_url": "https://github.com/jppradoleal/sds1",
+          "deployed_url": "https://sds1-joaop.netlify.app/"
+        },
+        {
+          "title": "Happy",
+          "description": "Serviço baseado em React e NodeJS para ajudar voluntários que desejam encontrar orfanatos.",
+          "github_url": "https://github.com/jppradoleal/NLW3",
+          "deployed_url": "https://nlw-joaop.netlify.app/"
+        },
+        {
+          "title": "Bord8",
+          "description": "Ferramenta de utilidade para gerar bordas CSS customizadas utilizando HTML, CSS e JS.",
+          "github_url": "https://github.com/jppradoleal/Bord8",
+          "deployed_url": "https://jppradoleal.github.io/Bord8/"
+        }
+      ]
     },
     "contact": {
       "title": "Onde me encontrar?"

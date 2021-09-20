@@ -1,13 +1,7 @@
 <template>
   <section class="body">
     <h3>{{$t('sideProjects.title')}}</h3>
-    <section v-for="repo in repos" :key="repo.id">
-      <header>
-        <h4><a :href="repo.html_url">{{repo.name}}</a></h4>
-        <span>⭐{{repo.stargazers_count}}</span>
-      </header>
-      <p>{{repo.description}}</p>
-    </section>
+    <project v-for="repo in repos" :key="repo.id" :repo="repo"/>
   </section>
 </template>
 
@@ -20,6 +14,7 @@ interface IRepo {
     html_url: string,
     description: string,
     stargazers_count: number,
+    created_at: Date,
 }
 
 export default Vue.extend({
@@ -32,7 +27,13 @@ export default Vue.extend({
     const response = await fetch('https://api.github.com/users/jppradoleal/repos')
       .then(res => res.json()) as IRepo[]
 
-    this.repos = response.sort((a, b) => b.stargazers_count - a.stargazers_count).splice(0, 5)
+    this.repos = response
+      .sort((a, b) => {
+        const dateA = new Date(a.created_at)
+        const dateB = new Date(b.created_at)
+        return dateB.getTime() - dateA.getTime();
+      })
+      .splice(0, 5)
   }
 })
 </script>

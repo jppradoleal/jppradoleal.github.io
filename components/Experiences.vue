@@ -1,12 +1,25 @@
 <template>
   <section class="body">
     <h3>{{$t('experiences.title')}}</h3>
-    <section>
-      <h4>{{$t()}}</h4>
-      <p>{{$t()}}</p>
+    <section 
+      v-for="experience in experiences"
+      :key="experience.title">
+      <h4>{{experience.title}}</h4>
+      <p>{{experience.body}}</p>
     </section>
   </section>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  computed: {
+    experiences() {
+      return this.$t('experiences.body')
+    }
+  }
+})
+</script>
 
 <style lang="scss" scoped>
   section.body h4 {
