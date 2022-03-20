@@ -10,7 +10,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'João Prado Portfolio',
+      },
       { name: 'format-detection', content: 'telephone=no' },
       {
         name: 'google-site-verification',
@@ -55,7 +59,17 @@ export default {
   ],
 
   i18n: {
-    locales: ['en-US', 'pt-BR'],
+    baseUrl: 'https://jppradoleal.github.io',
+    locales: [
+      {
+        code: 'en-US',
+        iso: 'en-US',
+      },
+      {
+        code: 'pt-BR',
+        iso: 'pt-BR',
+      },
+    ],
     defaultLocale: 'en-US',
     vueI18n: {
       messages: locales,

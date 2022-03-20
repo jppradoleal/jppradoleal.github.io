@@ -12,6 +12,14 @@
   </section>
 </template>
 
+<script>
+export default {
+  head() {
+    return this.$nuxtI18nHead({ addSeoAttributes: true })
+  },
+}
+</script>
+
 <style lang="scss">
 hr {
   max-width: 70%;
@@ -44,7 +52,7 @@ section.body {
     }
 
     h4 {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
     }
   }
 }

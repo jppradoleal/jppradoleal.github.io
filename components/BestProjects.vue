@@ -10,7 +10,12 @@
       <section class="project-body">
         <p>{{ project.description }}</p>
         <a :href="project.github_url">
-          <img src="~/assets/images/github-brands.svg" width="32" height="32" />
+          <img
+            src="~/assets/images/github-brands.svg"
+            width="32"
+            height="32"
+            alt="Neon green Github icon"
+          />
         </a>
       </section>
     </section>
