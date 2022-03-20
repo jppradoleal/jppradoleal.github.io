@@ -1,28 +1,25 @@
 <template>
   <main id="call-to-action">
     <section>
-      <p>{{$t('callToAction.label')}}</p>
+      <p>{{ $t('callToAction.label') }}</p>
     </section>
-    <button>{{$t('callToAction.action')}}</button>
+    <a class="call-to-action-btn" href="mailto:joaopedro0128@hotmail.com">{{
+      $t('callToAction.action')
+    }}</a>
   </main>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
+<script>
 const techs = [
-  "Vue",
-  "Javascript",
-  "Typescript",
-  "Java",
-  "Spring",
-  "Primefaces",
-  "ReactJS",
-  "Angular"
+  'Vue',
+  'Javascript',
+  'Typescript',
+  'Java',
+  'Spring',
+  'Primefaces',
+  'ReactJS',
+  'Angular',
 ]
-
-export default Vue.extend({
-})
 </script>
 
 <style lang="scss">
@@ -33,9 +30,12 @@ export default Vue.extend({
   align-items: center;
   justify-content: center;
 
-  button {
+  .call-to-action-btn {
     margin-top: 15px;
     padding: 15px 70px;
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
 
     border-radius: 5px;
     background: var(--green);

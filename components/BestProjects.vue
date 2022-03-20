@@ -1,11 +1,7 @@
 <template>
   <section class="body">
     <h3>{{ $t('bestProjects.title') }}</h3>
-    <section 
-      v-for="project in projects" 
-      :key="project.title"
-      class="project"
-    >
+    <section v-for="project in projects" :key="project.title" class="project">
       <header>
         <h4>
           <a :href="project.deployed_url">{{ project.title }}</a>
@@ -21,7 +17,7 @@
   </section>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
 
 export default Vue.extend({
@@ -34,18 +30,18 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-  .project {    
-    h4 {
-      color: var(--green);
-    }
+.project {
+  h4 {
+    color: var(--green);
+  }
 
-    .project-body {
-      display: flex;
-      justify-content: space-between;
+  .project-body {
+    display: flex;
+    justify-content: space-between;
 
-      img {
-        fill: var(--green);
-      }
+    img {
+      fill: var(--green);
     }
   }
+}
 </style>
