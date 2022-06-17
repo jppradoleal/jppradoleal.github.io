@@ -9,12 +9,18 @@
       </header>
       <section class="project-body">
         <p>{{ project.description }}</p>
-        <a :href="project.github_url">
+        <a
+          target="_blank"
+          ref="noreferrer"
+          :title="project.title"
+          :href="project.github_url">
           <img
             src="~/assets/images/github-brands.svg"
             width="32"
             height="32"
+            loading="lazy"
             alt="Neon green Github icon"
+            title="Neon green Github icon"
           />
         </a>
       </section>

@@ -24,11 +24,15 @@ const techs = [
 
 <style lang="scss">
 #call-to-action {
-  height: 60vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media screen and (min-width: 720px) {
+    height: 60vh;
+  }
 
   .call-to-action-btn {
     margin-top: 15px;

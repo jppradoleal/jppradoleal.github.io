@@ -6,16 +6,21 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'João Prado',
+    title: 'João Prado - Desenvolvedor Web 🚀',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'theme-color', content: '#333333' },
       {
         hid: 'description',
         name: 'description',
-        content: 'João Prado Portfolio',
+        content: 'Precisa de um site profissional, performático e que supra suas demandas? Tenha seu site na primeira página do google com as melhores técnicas de SEO Optimization!',
       },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'og:title', content: 'João Prado - Desenvolvedor Web 🚀' },
+      { name: 'og:description', content: 'Precisa de um site profissional, performático e que supra suas demandas? Tenha seu site na primeira página do google com as melhores técnicas de SEO Optimization!' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:url', content: 'https://jppradoleal.github.io' },
       {
         name: 'google-site-verification',
         content: 'JsSsfyYLLBmLBuE9z4WFd6Of1UwFldPHFVXf3cUn_v4',
@@ -23,6 +28,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       {
         rel: 'preconnect',

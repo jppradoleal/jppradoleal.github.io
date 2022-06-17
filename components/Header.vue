@@ -28,30 +28,41 @@
 <style lang="scss" scoped>
 nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 25px 50px;
+
+  @media screen and (min-width: 720px) {
+    flex-direction: row;
+  }
 
   h1 {
     text-decoration: underline;
   }
 
-  p.joke {
-    filter: drop-shadow(0 0 1rem #ff0);
+  h2 {
+    margin-top: .5rem;
   }
-
   .tail-header {
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     gap: 32px;
-  }
 
-  .languages {
-    .language-switcher {
-      padding: 5px 25px;
-      background: var(--green);
-      color: black;
-      border-radius: 5px;
-      text-decoration: none;
+    .joke {
+      font-size: .7rem;
+      filter: drop-shadow(0 0 1rem #ff0);
+    }
+
+    .languages {
+      .language-switcher {
+        font-size: .7rem;
+        padding: 5px 15px;
+        background: var(--green);
+        color: black;
+        border-radius: 5px;
+        text-decoration: none;
+      }
     }
   }
 }

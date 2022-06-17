@@ -9,6 +9,7 @@
     <Education />
     <SideProjects />
     <Contact />
+    <StructuredData />
   </section>
 </template>
 
@@ -30,8 +31,12 @@ hr {
 }
 
 section.body {
-  width: 50%;
   margin: 40px auto 20px;
+  width: 90%;
+
+  @media screen and (min-width: 720px) {
+    width: 75%;
+  }
 
   h3 {
     margin-bottom: 16px;
