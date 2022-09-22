@@ -62,6 +62,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/i18n',
+    '@nuxtjs/gtm',
   ],
 
   i18n: {
@@ -88,7 +89,7 @@ export default {
   },
 
   gtm: {
-    id: 'GTM-T8J3TPT',
+    id: 'G-CXD2TGS29T',
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
